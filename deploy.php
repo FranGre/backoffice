@@ -28,7 +28,7 @@ task('build', function () {
 });
 
 task('reload:php-fpm', function(){
-    run('sudo /etc/init.d/php8.3-fpm restart')
+    run('sudo /etc/init.d/php8.3-fpm restart');
 });
 
 // Hooks
